@@ -283,36 +283,6 @@
       }
   }
 
-  .footer {
-      z-index: 9;
-      width: 100%;
-      padding: 20px;
-      font-size: 10px;
-
-      @media (max-width: 768px) {
-          position: static;
-          bottom: auto;
-          left: auto;
-      }
-
-      &-links {
-          display: flex;
-          justify-content: center;
-          column-gap: 10px;
-          margin-bottom: 10px;
-      }
-
-      &-copyright {
-          text-align: center;
-          font-size: 12px;
-
-          a {
-              font-weight: 600;
-              color: rgb(var(--codocular-color));
-          }
-      }
-  }
-
   :root {
       /* theme variable */
       --codocular-color-hex: #e34c26;
@@ -444,11 +414,17 @@
           width: 130%;
           flex-shrink: 0;
           top: -20px;
+          height: 260px; // NUEVO: alto fijo, igual para todas las cards
+          display: flex; // NUEVO
+          align-items: flex-end; // NUEVO: ancla la zapatilla siempre abajo
+          justify-content: center; // NUEVO: centra horizontalmente
 
           &-img {
               user-select: none;
               position: relative;
               width: 100%;
+              max-height: 100%; // NUEVO
+              object-fit: contain; // NUEVO: mantiene proporción sin deformar
               display: block;
               z-index: 9;
           }
