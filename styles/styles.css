@@ -413,6 +413,7 @@ section .grid {
 }
 .text-mask span {
   display: inline-flex;
+  color: #000000;
 }
 
 .co-background {
