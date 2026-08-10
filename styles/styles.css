@@ -39,7 +39,7 @@ main {
 
 .cards {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: space-around;
   gap: 30px;
   justify-content: center;
 }
@@ -54,7 +54,7 @@ main {
 }
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 10px 25px rgba(255, 92, 0, 0.25);
+  box-shadow: 0 10px 25px rgba(255, 92, 0, 0.2509803922);
 }
 
 .card-header {
@@ -78,7 +78,6 @@ main {
 
 .puma .card-header {
   background: linear-gradient(135deg, #f2b705, #946f01);
-  color: #1a1a1a;
 }
 
 .reebok .card-header {
