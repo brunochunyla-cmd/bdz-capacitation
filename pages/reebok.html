@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="../styles/styles.css">
   <title>BDZ Capacitation</title>
 </head>
@@ -12,7 +13,7 @@
 <body>
 
   <header>
-    <h1>BDZ <span>Capacitation</span></h1>
+    <h1>BDZ <span data-aos="fade-right">Capacitation</span></h1>
     <p>Formación especializada en calzado deportivo</p>
   </header>
   <main>
@@ -30,25 +31,25 @@
     <section>
       <h2>Tecnologías clave</h2>
       <div class="grid">
-        <div class="box">
+        <div class="box" data-aos="fade-right">
           <h3>Floatride Energy</h3>
           <p>Espuma liviana y reactiva diseñada para brindar una amortiguación cómoda y un buen retorno de energía
             durante la carrera.</p>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="fade-left">
           <h3>DMX</h3>
           <p>Sistema de amortiguación que utiliza cámaras de aire para distribuir el impacto y ofrecer mayor comodidad
             durante el entrenamiento.</p>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="fade-right">
           <h3>Flexweave</h3>
           <p>Tejido resistente y flexible que proporciona estabilidad, soporte y libertad de movimiento, especialmente
             en entrenamientos intensos.</p>
         </div>
 
-        <div class="box">
+        <div class="box" data-aos="fade-left">
           <h3>Nanoflex</h3>
           <p>Suela flexible diseñada para favorecer los movimientos naturales del pie y brindar mayor flexibilidad
             durante ejercicios y entrenamientos.</p>
@@ -170,6 +171,10 @@
     <p>&copy; 2026 BDZ Capacitation. Todos los derechos reservados.</p>
     <a href="https://wa.me/+5491124020317" target="_blank">contacto</a>
   </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script type="module" src="../jscript/carrousel.js"></script>
 </body>
 
