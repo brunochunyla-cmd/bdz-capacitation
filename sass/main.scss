@@ -1,25 +1,5 @@
-$bg-color: #0d0d0d;
-$text-color: #f2f2f2;
-$accent-color: #ff5c00;
-$accent-color-hover: #ff5c0040;
-$card-bg-color: #1a1a1a;
-$p-color: #b3b3b3;
-$card-brdr-color: #2b2b2b;
-$card-p-color: #b3b3b3;
-$adidas-color: #0051ba;
-$puma-color: #ae946d;
-$reebok-color: #E41D1B;
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-@mixin img-logo {
-    max-width: 80%;
-    max-height: 80%;
-}
+@use "./utilities/variables" as *;
+@use "./utilities/mixins" as *;
 
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
