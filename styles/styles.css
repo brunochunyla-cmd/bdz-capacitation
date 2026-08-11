@@ -75,6 +75,9 @@ main {
 .adidas .card-header {
   background: linear-gradient(135deg, #0051ba, rgb(0, 36.5806451613, 84));
 }
+.adidas .btn {
+  margin-top: -10px;
+}
 
 .puma .card-header {
   background: linear-gradient(135deg, #ae946d, rgb(116.4140969163, 95.6828193833, 64.5859030837));
@@ -144,7 +147,7 @@ footer {
   justify-content: space-between;
   text-align: center;
   padding: 30px 20px;
-  color: #666666;
+  color: #8c8c8c;
   font-size: 0.85rem;
   border-top: 1px solid #2b2b2b;
 }

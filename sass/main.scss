@@ -99,6 +99,9 @@ main {
 
     }
 
+    .btn {
+        margin-top: -10px;
+    }
 
 }
 
@@ -116,7 +119,8 @@ main {
     .card-header {
         background: linear-gradient(135deg, $reebok-color, darken($reebok-color, 20%));
     }
-    .btn{
+
+    .btn {
         margin-top: -10px;
     }
 
@@ -181,7 +185,7 @@ footer {
     justify-content: space-between;
     text-align: center;
     padding: 30px 20px;
-    color: #666666;
+    color: #8c8c8c;
     font-size: 0.85rem;
     border-top: 1px solid #2b2b2b;
 
