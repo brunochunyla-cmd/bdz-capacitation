@@ -89,17 +89,28 @@ main {
     }
 }
 
-.adidas .card-header {
-    background: linear-gradient(135deg, #000000, #333333);
+.adidas {
+    .card-header {
+        background: linear-gradient(135deg, #000000, #333333);
 
+    }
 }
 
-.puma .card-header {
-    background: linear-gradient(135deg, #f2b705, #946f01);
+.puma {
+    .card-header {
+        background: linear-gradient(135deg, #f2b705, #946f01);
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
 }
 
-.reebok .card-header {
-    background: linear-gradient(135deg, #d40000, #5f0000);
+.reebok {
+    .card-header {
+        background: linear-gradient(135deg, #d40000, #5f0000);
+    }
+
 }
 
 .card-body {
@@ -488,7 +499,7 @@ $prefix: co;
 
     span {
         display: inline-flex;
-        color:#000000;
+        color: #000000;
     }
 }
 

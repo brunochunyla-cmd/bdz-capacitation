@@ -79,6 +79,9 @@ main {
 .puma .card-header {
   background: linear-gradient(135deg, #f2b705, #946f01);
 }
+.puma .btn {
+  margin-top: 20px;
+}
 
 .reebok .card-header {
   background: linear-gradient(135deg, #d40000, #5f0000);
