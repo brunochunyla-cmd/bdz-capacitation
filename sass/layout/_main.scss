@@ -1,0 +1,131 @@
+
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    background-color: $card-bg-color;
+    border-radius: 14px;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid $card-brdr-color;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 10px 25px $accent-color-hover;
+    }
+}
+
+
+.card-header {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ffffff;
+
+    img {
+        @include img-logo;
+    }
+}
+
+.adidas {
+    .card-header {
+        background: linear-gradient(135deg, $adidas-color, darken($adidas-color, 20%));
+
+    }
+
+    .btn {
+        margin-top: -10px;
+    }
+
+}
+
+.puma {
+    .card-header {
+        background: linear-gradient(135deg, $puma-color, darken($puma-color, 20%));
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+}
+
+.reebok {
+    .card-header {
+        background: linear-gradient(135deg, $reebok-color, darken($reebok-color, 20%));
+    }
+
+    .btn {
+        margin-top: -10px;
+    }
+
+}
+
+.card-body {
+    padding: 24px;
+
+    h2 {
+        margin-bottom: 10px;
+        font-size: 1.4rem;
+    }
+
+    p {
+        color: $card-p-color;
+        font-size: 0.95rem;
+        margin-bottom: 20px;
+        line-height: 1.5;
+    }
+
+    ul {
+        list-style: none;
+        margin-bottom: 20px;
+
+        li {
+            color: #d9d9d9;
+            font-size: 0.9rem;
+            padding: 4px 0;
+            padding-left: 18px;
+            position: relative;
+        }
+    }
+}
+
+
+.card-body ul li::before {
+    content: "•";
+    color: $accent-color;
+    position: absolute;
+    left: 0;
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+    background-color: $accent-color;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e04e00;
+}

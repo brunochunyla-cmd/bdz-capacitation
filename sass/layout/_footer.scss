@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 20px;
+    color: #8c8c8c;
+    font-size: 0.85rem;
+    border-top: 1px solid #2b2b2b;
+
+    a {
+        background-color: $accent-color;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition-duration: 0.3s;
+
+        &:hover {
+            background-color: #e04e00;
+        }
+    }
+}
