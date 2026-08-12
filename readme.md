@@ -31,4 +31,11 @@ Este comando permite observar los cambios realizados en los archivos
 SCSS y actualizar automáticamente el archivo CSS.
 
 GIT 
+Utilice Git para poder trabajar desde dos equipos a la vez haciendo git push y git pull para poder ver mi progreso desde ambos equipos
 
+GITHUB 
+Almacene todo el proyecto en github y permite llevar un control de todos los cambio realizados y una vista de las distintas versiones del codigo que se cargaron.
+
+
+Autor
+Bruno Diaz - Estudiante de CoderHouse
